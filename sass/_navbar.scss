@@ -1,0 +1,17 @@
+Header{
+    text-decoration: none;
+    color: white;
+    background-color: #2E2E2E;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 100px;
+        nav{
+            ul{
+                list-style-type: none;
+                display: grid;
+                grid-template-columns: 150px 150px 150px 150px 150px;
+                align-items: center;
+            }
+        }
+}

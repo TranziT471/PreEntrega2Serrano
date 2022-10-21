@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul&display=swap");
+Header {
+  text-decoration: none;
+  color: white;
+  background-color: #2E2E2E;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 100px;
+}
+Header nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  align-items: center;
+}
+
+.servicio1 {
+  width: 40%;
+  display: grid;
+  margin: 0% 50% 50px 50px;
+  padding: 100px 50px 100px 50px;
+  border: solid 3px;
+  background-color: #a18488;
+  justify-items: center;
+}
+
+.servicio2 {
+  width: 40%;
+  display: grid;
+  margin: 0% 50px 50px 50%;
+  padding: 100px 50px 100px 50px;
+  border: solid 3px;
+  background-color: #a18488;
+  justify-items: center;
+}
+
+.servicio3 {
+  width: 40%;
+  display: grid;
+  margin: 0% 50% 50px 50px;
+  padding: 100px 50px 100px 50px;
+  border: solid 3px;
+  background-color: #a18488;
+  justify-items: center;
+}
+
+.servicio4 {
+  width: 40%;
+  display: grid;
+  margin: 0% 50px 50px 50%;
+  padding: 100px 50px 100px 50px;
+  border: solid 3px;
+  background-color: #a18488;
+  justify-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  display: flex;
+}
+
+body {
+  font-family: "asul", sans-serif;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/Fondo.png), linear-gradient(90deg, hsl(352deg, 84%, 30%) 0%, hsl(350deg, 98%, 36%) 30%, hsl(350deg, 98%, 39%) 62%, hsl(350deg, 98%, 48%) 89%);
+  background-blend-mode: overlay;
+  height: 100vh;
+  background-color: #161A1D;
+}
+
+.logos {
+  display: grid;
+  max-width: 80%;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.clases {
+  transition: 1.5s;
+}
+
+.clases:hover {
+  transform: rotate(360deg);
+}
+
+/*
+separar bien elementos del header asi queda mas ordenado y prolijo clase 4 min 48
+aplicar padding-border-margin a "p" a "img" y a "footer"
+*/
+.Nosotros {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.Staff {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+fieldset {
+  padding: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2E2E2E;
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .ApVuelta {
+    position: unset;
+  }
+}
+/*
+
+.ApVuelta p{
+    color:blueviolet !important;
+} 
+el important hace que se "fije" esa caracteristica sin importar lo que pase despues con esa class, osea, no deja que se sobreescriba eso
+*//*# sourceMappingURL=Style.css.map */
